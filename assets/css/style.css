@@ -1,0 +1,175 @@
+/* BODY */
+
+html, body {
+    background: #45358f;
+    color: #fff;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Rubik", sans-serif;
+}
+
+.kart {
+    color: #003049;
+    background-size: cover !important;
+    border-radius: 1.2rem !important;
+    background: url('../../assets/img/kart-bg.png') no-repeat center;
+}
+.freespin-prices {
+    line-height: 2.7rem;
+    font-size: 2.4rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: .4rem 0;
+}
+.freespin-prices:nth-child(odd) {
+    background: #ffffff12;
+    background: linear-gradient(90deg, transparent 0%, #ffffff12 50%, transparent 100%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.zar {
+    background-size: cover !important;
+    background: url('../../assets/img/zar.png') no-repeat center;
+    height: 2.4rem;
+    aspect-ratio: 1 / 1.15;
+    display: inline-block;
+    margin: 0 1rem 0 1rem;
+    position: relative;
+    margin-bottom: -6px;
+}
+
+.kart .card-body {
+    min-height: 180px;
+    justify-content: center !important;
+    align-items: center;
+    display: flex;
+}
+
+
+.card {
+ background-color: transparent;
+    box-shadow: unset !important;
+    border: 0 !important;
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Resmin oranlarını koruyarak sığdırma */
+}
+
+#oyunlar-title {
+    display: block;
+    margin: auto;
+    background-image: url('../../assets/img/oyunlar.png'); /* Asıl resim */
+    background-size: cover;
+    object-fit: contain;
+    z-index: 888;
+    height: 8rem;
+    aspect-ratio: 16 / 6.64;
+}
+
+#freespin-prices-title {
+    display: block;
+    margin: auto;
+    background-image: url('../../assets/img/freespin-prices.png'); /* Asıl resim */
+    background-size: cover;
+    object-fit: contain;
+    z-index: 888;
+    height: 11rem;
+    aspect-ratio: 16 / 8.3;
+    margin-bottom: -2rem;
+}
+#alevli-kirmizi-zar {
+    width: 300px; /* Resim genişliği */
+    height: 300px; /* Resim yüksekliği */
+    background-image: url('../../assets/img/kirmizi-zar.png'); /* Asıl resim */
+    background-size: cover;
+    margin-top: -6rem;
+    margin-left: 31rem;
+    margin-bottom: -13em;
+}
+#ogeday-pro-logo {
+    width: 126px;
+    height: 160px;
+    background-image: url(../../assets/img/ogeday-pro-logo.png);
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    left:4em;
+}
+
+@media (max-width: 1367px) {
+    #alevli-kirmizi-zar {
+        width: 300px; /* Resim genişliği */
+        height: 300px; /* Resim yüksekliği */
+        margin-top: -6rem;
+        margin-left: 21rem;
+        margin-bottom: -13em;
+    }
+}
+
+.list-group {
+    flex-direction: row !important;
+}
+.list-group-item {
+}
+.oyun-list {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FONT */
+.poetsen-one {
+    font-family: "Poetsen One", sans-serif;
+}
+h1,h3,h4,h5,h6, .freespin-prices {
+    font-family: "Lilita One", sans-serif;
+}
+
+
+
+.fs-6 {font-size: 3em;}
+.fs-7 {font-size: 3.5em;}
+.fs-8 {font-size: 4em;}
+.fs-9 {font-size: 4.5em;}
+.fs-10 {font-size: 5em;}
+
+.pro-btn {
+    background: #1d0f5f;
+    border-color: #1d0f5f;
+    color: #b5a7f8;
+}
+
+.front, .back {
+    width: 100%;
+    height: 200px;
+}
+
+@media (max-width: 400px) {
+    .freespin-prices {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 700px) {
+    #freespin-area {
+        margin-top: 100px;
+    }
+    #alevli-kirmizi-zar {
+        width: 300px;
+        height: 300px;
+        margin-top: -4rem;
+        margin-left: 4rem;
+        margin-bottom: -15em;
+    }
+    .front, .back {
+        height: 100px;
+    }
+    .oyun-list img {
+        margin: 16px 0 !important;
+    }
+}
